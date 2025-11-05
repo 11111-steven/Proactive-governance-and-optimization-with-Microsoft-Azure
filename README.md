@@ -1,15 +1,16 @@
 # Proactive-governance-and-optimization-with-Microsoft-Azure
 This project was created with education and research purposes.
 
-**Description:** Practical project simulating the modernization of a monolithic application exported to a microservices architecture (frontend, backend, database) deployed on Azure. An Infrastructure as Code (IaC) approach was used to automate the creation of a secure and scalable environment, culminating in the deployment of the containerized application and the validation of its native capabilities in the cloud.
+**Description:** Implementation of a centralized monitoring system using Infrastructure as Code (Bicep) to transform cloud management from a reactive to a proactive model. The solution automatically identifies reliability risks, alerts on critical failures in real time, and provides complete visibility into the operational status and costs of a simulated application in Azure.
 
-**Technologies used:** Microsoft Azure, Azure Kubernetes Service (AKS), Docker, Bicep, Azure Container Registry (ACR), Azure Monitor for Containers, Log Analytics Workspace, Azure Virtual Network (VNet), Azure Load Balancer, Azure CLI, kubectl, Python (Flask, FastAPI), Redis.
+**Technologies used:** Fedora, Azure Bicep (IaC), Azure CLI, Azure Monitor, Log Analytics Workspace with KQL, Azure Advisor, Azure Monitor Alerts, and Azure Dashboards.
 
-**Achievements:** Demonstrated the ability to deploy and configure the entire Azure architecture in a 100% automated and repeatable manner using Bicep. Practically tested the high availability (pod self-repair) and horizontal scalability (replica scaling) offered by Kubernetes.
+**Achievements:** High-impact reliability risks recommended by Azure Advisor were detected and documented before they affected the service. Detection and notification of a critical application failure (HTTP Error 500) in less than five minutes was demonstrated. Complete deployment and dismantling of the infrastructure was achieved through code, ensuring consistency, agility, and total governance without orphaned resources. The effectiveness of governance practices (automatic shutdown) was validated, achieving precise control of spending and keeping the cost of computing resources virtually at zero.
+
 
 **TRANSLATE**
-**Descripción:** Proyecto práctico que simula la modernización de una aplicación monolítica exportada a una arquitectura de microservicios (frontend, backend, base de datos) desplegada en Azure. Se utilizó un enfoque de infraestructura como Código (IaC) para automatizar la creación de un entorno seguro y escalable, culminando con el despliegue de la aplicación containerizada y la validación de sus capacidades nativas en la nube.
+**Descripción:** Implementación de un sistema de monitoreo centralizado utilizando Infraestructura como Código (Bicep) para transformar la gestión de la nube de un modelo reactivo a uno proactivo. La solución identifica automáticamente riesgos de fiabilidad, alerta sobre fallos críticos en tiempo real y proporciona una visibilidad completa del estado operativo y de costos de una aplicación simulada en Azure.
 
-**Tecnologías utilizadas:** Microsoft Azure, Azure Kubernetes Service (AKS), Docker, Bicep, Azure Container Registry (ACR), Azure Monitor for Containers, Log Analytics Workspace, Azure Virtual Network (VNet), Azure Load Balancer, Azure CLI, kubectl, Python (Flask, FastAPI), Redis.
+**Tecnologías utilizadas:** Fedora, Azure Bicep (IaC), Azure CLI, Azure Monitor, Log Analytics Workspace con KQL, Azure Advisor, Azure Monitor Alerts y Azure Dashboards.
 
-**Logros:** Se demostró la capacidad de desplegar y configurar toda la arquitectura de Azure de forma 100% automatizada y repetible utilizando Bicep. Se probó de manera práctica la alta disponibilidad (auto-reparación de pods) y la escalabilidad horizontal (escalado de réplicas) que ofrece Kubernetes.
+**Logros:** Se detectaron y documentaron riesgos de fiabilidad de alto impacto recomendados por Azure Advisor antes de que afectaran al servicio. Se demostró la detección y notificación de un fallo crítico en la aplicación (Error HTTP 500) en menos de cinco minutos. Se logró el despliegue y desmantelamiento completo de la infraestructura mediante código, garantizando consistencia, agilidad y una gobernanza total sin recursos huérfanos. Se validó la efectividad de las prácticas de gobernanza (apagado automático), logrando un control preciso del gasto y manteniendo el costo de los recursos de cómputo prácticamente en cero.
